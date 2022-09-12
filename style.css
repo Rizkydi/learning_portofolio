@@ -42,3 +42,64 @@ body {
 .navlink a:hover {
     color: #dfe6e9;
 }
+
+.text-hero {
+    position: absolute;
+    left: 9%;
+    top: 130px;
+    line-height: 0px;
+}
+
+.text-hero p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+} 
+
+.text-hero p:nth-child(2) {
+    font-family: 'lobster',cursive;
+    font-size: 50px;
+    margin: 0;
+}
+
+.text-hero p:nth-child(3) {
+    font-size: 30px;
+    font-weight: thin;
+    line-height: normal;
+}
+
+.btn-here {
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 11px;
+}
+
+.btn-download {
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #2f3648;
+    font-size: 11px;
+    color: white;
+    border: none;    
+}
+
+.model {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    height: 450px;
+}
+
+.about {
+    width: 80%;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin: -3% auto 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
