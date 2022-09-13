@@ -191,7 +191,7 @@ body {
 
 .skill-1 div,
 .skill-2 div,
-.skill-3 {
+.skill-3 div {
     width: 40px;
     weight: 40px;
     background-color: white;
@@ -237,4 +237,85 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.contact p {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 13px;
+    line-height: 0px;
+}
+
+.garis {
+    width: 390px;
+    height: 5px;
+    border-bottom: 2px solid white;
+    margin-bottom: 15px;
+}
+
+.contact button {
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+    border: 1px solid black;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #dfe6e9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.footer p:nth-child(2) {
+    width: 700px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.list-icon {
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+}
+
+.list-icon div {
+    width: 40px;
+    height: 40px;
+    background-color: #b2bec3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.list-icon{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+
+}
+
+.list-icon div{
+    width: 40px;
+    height: 40px;
+    background-color: #b2bec3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
